@@ -253,7 +253,7 @@ Evaluate `data/propara/code/func/test_output.jsonl`
 
 ---
 
-## Creating dynamic prompts (KST)
+## Creating dynamic prompts
 
 - Note that when we run a job with a fixed random prompt, the `prompt_path` is supplied as an argument to `query_openai_over_tasks.py`. In case of dynamic prompts, we will create a prompt for *each test example*, and store it in the task jsonl file with each example in the `prompt` field.
 
