@@ -1,0 +1,289 @@
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "the church of scientology should not be banned."
+        self.argument = "The church of scientology has silenced people."
+        self.stance = "counter"
+        self.graph = "(church of scientology; capable of; silenced people)(silenced people; has context; bad)(bad; desires; banned)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Judicial activism make decision in the court right and legit"
+        self.argument = "Judicial activism allows for manipulations."
+        self.stance = "counter"
+        self.graph = "(judicial activism; capable of; manipulations)(manipulations; is not a; decision)(decision; synonym of; judgment)(judgment; not capable of; right and legit)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "If someone can afford a good lawyer, they should be allowed, so they get the best representation they can get."
+        self.argument = "Nobody is better than anyone else."
+        self.stance = "counter"
+        self.graph = "(nobody; capable of; better)(someone; not capable of; better)(afford; not part of; better)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Television is fun and part of us already"
+        self.argument = "Almost everyone has a television in their house"
+        self.stance = "support"
+        self.graph = "(television; used for; everyone)(everyone; desires; fun)(fun; at location; house)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Restricting freedom of speech is oppressive."
+        self.argument = "The First Amendment offers guarantees."
+        self.stance = "support"
+        self.graph = "(first amendment; capable of; guarantees)(first amendment; not desires; restricting)(freedom of speech; part of; first amendment)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Acting takes children away from their education and normal activities."
+        self.argument = "Childhood actors usually end up with bad lives because they didn't have a normal childhood."
+        self.stance = "support"
+        self.graph = "(childhood actors; capable of; acting)(acting; causes; bad lives)(bad lives; not created by; normal activities)(normal activities; used for; normal childhood)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Homeopathic remedies can provide emotional and physical healing."
+        self.argument = "Homeopathy provides a false sense of hope."
+        self.stance = "counter"
+        self.graph = "(homeopathy; is not a; scientific and effective)(scientific and effective; capable of; provides)(provides; has context; false hope)(false hope; capable of; hurt emotional feeling)(hurt emotional feeling; antonym of; provide emotional healing)(false hope; not capable of; physical healing)(homeopathic remedies; synonym of; homeopathy)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Having a zero tolerance policy doesn't create more discipline in schools."
+        self.argument = "zero tolerance policies don't work in schools."
+        self.stance = "support"
+        self.graph = "(zero tolerance; not capable of; work in schools)(work in schools; desires; better behavior)(better behavior; capable of; discipline)(zero tolerance; not capable of; better behavior)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Targeted killing should not be used."
+        self.argument = "Targeted killing violates civil liberties."
+        self.stance = "support"
+        self.graph = "(targeted killing; has property; violates civil liberties)(violates civil liberties; has property; unconstitutional)(unconstitutional; desires; not be used)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Scientology is damaging to people"
+        self.argument = "Scientology has helped people with their anxiety"
+        self.stance = "counter"
+        self.graph = "(helped; antonym of; damaging)(people; receives action; helped)(helped; has context; anxiety)(scientology; capable of; helped)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "When journalists get financial support, they feel an obligation to report the truth from reliable sources."
+        self.argument = "If you know you're receiving money, then you feel like you have to earn that money by reporting the truth."
+        self.stance = "support"
+        self.graph = "(financial support; capable of; indebtedness)(indebtedness; part of; obligation)(receiving money; capable of; obligation)(receiving money; capable of; earn that money)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Cannabis is not any worse than cigarettes or alcohol."
+        self.argument = "Cannabis is used world-round as much as cigarettes and alcohol, though smoke inhalation is questionable for health."
+        self.stance = "counter"
+        self.graph = "(cannabis; causes; smoke inhalation)(smoke inhalation; capable of; worse)(questionable for health; has context; worse)(smoke inhalation; capable of; questionable for health)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "The government should not be telling people what to believe in."
+        self.argument = "People should have the right to follow whichever religion they choose."
+        self.stance = "support"
+        self.graph = "(people; capable of; choice)(choice; used for; religion)(religion; not created by; the government)(the government; at location; country)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "People should not claim to be gender-neutral."
+        self.argument = "The idea of gender is a construct we invented so we can redefine it if needed."
+        self.stance = "counter"
+        self.graph = "(redefine; has property; gender-neutral)(gender; has context; invented)(invented; capable of; redefine)(gender-neutral; part of; acceptable gender definition)(people; has property; gender)(gender; part of; identity)(identity; receives action; claim)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Assisted suicide is murder."
+        self.argument = "The dying party has consented, negating murder."
+        self.stance = "counter"
+        self.graph = "(assisted suicide; used for; the dying party)(the dying party; receives action; has chosen)(has chosen; receives action; has consented)(has consented; causes; ruling out murder)(ruling out murder; antonym of; murder)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Targeted killing should not be allowed."
+        self.argument = "Targeted killing keeps the country safe."
+        self.stance = "counter"
+        self.graph = "(targeted killing; has property; advantages)(advantages; used for; safety)(safety; at location; the country)(safety; receives action; allowed)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Assisted suicide is murder."
+        self.argument = "It is illegal to knowingly contribute to another person's death."
+        self.stance = "support"
+        self.graph = "(killing someone; has subevent; murder)(killing someone; has property; illegal)(person's death; part of; killing someone)(assisted suicide; causes; helping someone die)(helping someone die; synonym of; person's death)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Using algorithms in the stock market has no added value."
+        self.argument = "An algorithm can only make a fully accurate prediction using known facts."
+        self.stance = "support"
+        self.graph = "(algorithms; capable of; no benefit)(no benefit; has context; no added value)(algorithm; desires; known facts)(stock market; not made of; known facts)(algorithm; synonym of; algorithms)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "There's no oversight to prevent private military companies from committing atrocities."
+        self.argument = "God can see all crimes and will not be afraid to hold people accountable."
+        self.stance = "counter"
+        self.graph = "(god; capable of; oversight)(hold people accountable; used for; private military companies)(oversight; used for; preventing atrocities)(oversight; used for; hold people accountable)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "People can be abusive online very easily."
+        self.argument = "Compassion is lost in anonymity."
+        self.stance = "support"
+        self.graph = "(online; causes; anonymity)(anonymity; capable of; abusive)(abusive; not used for; compassion)(compassion; created by; people)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Flag burning is protected free speech."
+        self.argument = "Flag burning disrespects individuals who have served in the military."
+        self.stance = "counter"
+        self.graph = "(flag burning; capable of; disrespects)(disrespects; not part of; protected)(disrespects; not part of; free speech)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "foster care kids tend to not be looked after enough."
+        self.argument = "Foster children are likely to be mistreated."
+        self.stance = "support"
+        self.graph = "(foster children; receives action; mistreated)(mistreated; not created by; looked after enough)(looked after enough; part of; safe nurturing environment)(safe nurturing environment; not part of; foster care kids)(foster care kids; receives action; abuse)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Homeopathy can be dangerous because it is unregulated."
+        self.argument = "A reputable third-party watchdog group checks the quality of homeopathic remedies and makes the results available on the web."
+        self.stance = "counter"
+        self.graph = "(homeopathy; causes; homeopathic remedies)(homeopathic remedies; receives action; checks quality)(checks quality; created by; third party watchdog)(checks quality; causes; results available web)(results available web; causes; public knowledge)(public knowledge; causes; safety for users)(safety for users; antonym of; dangerous)(third party watchdog; has property; reputable)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "this event is important for the world"
+        self.argument = "they cost a lot and those money can be used elsewhere."
+        self.stance = "counter"
+        self.graph = "(money; capable of; used elsewhere)(event; has property; cost a lot)(cost a lot; desires; money)(used elsewhere; is not a; important)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Payday loans help people in need."
+        self.argument = "Payday loans charge high rates."
+        self.stance = "counter"
+        self.graph = "(payday loans; has property; charge high rates)(charge high rates; has context; exploitation)(people in need; not desires; exploitation)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "School prayer is good."
+        self.argument = "Some people choose not to pray."
+        self.stance = "counter"
+        self.graph = "(people; has property; choice)(choice; used for; school prayer)(school prayer; not desires; some people)(some people; not desires; good)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Natural plus green helps heal naturally."
+        self.argument = "There are no drugs in Natural Plus green."
+        self.stance = "support"
+        self.graph = "(natural plus green; is a; treatment)(treatment; has property; drugs)(treatment; capable of; heal naturally)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "we should use public defenders less often"
+        self.argument = "using public defenders helps more people in the long run"
+        self.stance = "counter"
+        self.graph = "(public defenders; capable of; helps more people)(helps more people; has context; should use)(helps more people; used for; long run)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "targeted killing is necessary"
+        self.argument = "targeted killing saves lives."
+        self.stance = "support"
+        self.graph = "(terrorists; part of; killing innocent people)(killing innocent people; part of; unsafe)(unsafe; desires; targeted killing)(targeted killing; capable of; saves lives)(saves lives; has context; necessary)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "zero-tolerance policies make schools safer for both students and teachers."
+        self.argument = "zero-tolerance means no room for mistakes"
+        self.stance = "counter"
+        self.graph = "(zero-tolerance; capable of; harsh)(harsh; not capable of; mistakes)(mistakes; has context; no room)(zero-tolerance; used for; policies)(policies; part of; discipline)(discipline; used for; students and teachers)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Social media is negative for society."
+        self.argument = "Many people get connected on social media."
+        self.stance = "counter"
+        self.graph = "(social media; causes; connected)(connected; capable of; causing content)(causing content; not capable of; negative)"
+
+# END
+
+class ExplaGraph:
+    def __init__(self):
+        self.belief = "Intelligence tests can compare intelligence across certain groups."
+        self.argument = "test results can be tracked"
+        self.stance = "support"
+        self.graph = "(test results; capable of; tracked)(intelligence tests; causes; test results)(tracked; used for; certain groups)"
+
+# END
+
+

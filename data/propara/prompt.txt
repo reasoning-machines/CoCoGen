@@ -1,0 +1,239 @@
+def main():
+	# Init
+	# Energy is stored in a battery.
+	# The energy is released from the battery as electrical current.
+	# The electrical current goes to a motor.
+	# The motor makes the needle of the sewing machine go up and down.
+	# The needle is pressed through the piece of clothing at a constant rate.
+	# Thread is attached and used to stitch the clothing.
+	# state_0 tracks the location/state of electrical current
+	# state_1 tracks the location/state of energy
+	def init():
+		state_0 = None
+		state_1 = "battery"
+	def energy_is_stored_in_battery():
+		state_0 = None
+		state_1 = "battery"
+	def energy_is_released_from_battery_as_electrical_current():
+		state_0 = "motor"
+		state_1 = None
+	def electrical_current_goes_to_motor():
+		state_0 = "motor"
+		state_1 = None
+	def motor_makes_needle_of_sewing_machine_go_up_and_down():
+		state_0 = "motor"
+		state_1 = None
+	def needle_is_pressed_through_piece_of_clothing_at_constant_rate():
+		state_0 = "motor"
+		state_1 = None
+	def thread_is_attached_and_used_to_stitch_clothing():
+		state_0 = "motor"
+		state_1 = None
+# END
+
+def main():
+	# Init
+	# Warm air rises.
+	# Then it expandes and cools.
+	# Some of the vapor condenses onto tiny pieces of dust that are floating in the air.
+	# Forms a tiny droplet around each dust particle.
+	# Billions of these droplets come together they become a visible cloud.
+	# state_0 tracks the location/state of cloud
+	# state_1 tracks the location/state of droplet
+	# state_2 tracks the location/state of tiny pieces of dust ; dust particle
+	# state_3 tracks the location/state of vapor
+	# state_4 tracks the location/state of warm air
+	def init():
+		state_0 = None
+		state_1 = None
+		state_2 = "air"
+		state_3 = None
+		state_4 = "UNK"
+	def warm_air_rises():
+		state_0 = None
+		state_1 = None
+		state_2 = "air"
+		state_3 = None
+		state_4 = "UNK"
+	def then_it_expandes_and_cools():
+		state_0 = None
+		state_1 = None
+		state_2 = "air"
+		state_3 = "air"
+		state_4 = None
+	def some_of_vapor_condenses_onto_tiny_pieces_of_dust_that_are_floating_in_air():
+		state_0 = None
+		state_1 = None
+		state_2 = "air"
+		state_3 = "air"
+		state_4 = None
+	def forms_tiny_droplet_around_each_dust_particle():
+		state_0 = None
+		state_1 = "air"
+		state_2 = "air"
+		state_3 = None
+		state_4 = None
+	def billions_of_these_droplets_come_together_they_become_visible_cloud():
+		state_0 = "air"
+		state_1 = None
+		state_2 = "air"
+		state_3 = None
+		state_4 = None
+# END
+
+def main():
+	# Init
+	# A utensil or computer is chosen for wording.
+	# A paper is chosen to write or type on.
+	# You write what you need to on the paper.
+	# Put the paper in an evelop.
+	# Find a stamp.
+	# Find a post office or your own mail box.
+	# The letter is mailed.
+	# state_0 tracks the location/state of evelop
+	# state_1 tracks the location/state of paper
+	# state_2 tracks the location/state of stamp
+	# state_3 tracks the location/state of utensil or computer
+	def init():
+		state_0 = "UNK"
+		state_1 = "UNK"
+		state_2 = "UNK"
+		state_3 = "UNK"
+	def utensil_or_computer_is_chosen_for_wording():
+		state_0 = "UNK"
+		state_1 = "UNK"
+		state_2 = "UNK"
+		state_3 = "UNK"
+	def paper_is_chosen_to_write_or_type_on():
+		state_0 = "UNK"
+		state_1 = "UNK"
+		state_2 = "UNK"
+		state_3 = "UNK"
+	def you_write_what_you_need_to_on_paper():
+		state_0 = "UNK"
+		state_1 = "UNK"
+		state_2 = "UNK"
+		state_3 = "UNK"
+	def put_paper_in_evelop():
+		state_0 = "UNK"
+		state_1 = "evelop"
+		state_2 = "UNK"
+		state_3 = "UNK"
+	def find_stamp():
+		state_0 = "UNK"
+		state_1 = "evelop"
+		state_2 = "evelop"
+		state_3 = "UNK"
+	def find_post_office_or_your_own_mail_box():
+		state_0 = "post office"
+		state_1 = "evelop"
+		state_2 = "evelop"
+		state_3 = "UNK"
+	def letter_is_mailed():
+		state_0 = "UNK"
+		state_1 = "evelop"
+		state_2 = "evelop"
+		state_3 = "UNK"
+# END
+
+def main():
+	# Init
+	# Animals may come across vegetation.
+	# The animal may consume or get seeds stuck in their fur.
+	# The animal travels some distance someplace else.
+	# The seeds are dropped or deposited off.
+	# The seeds have a new place to proliferate and grow.
+	# state_0 tracks the location/state of animals
+	# state_1 tracks the location/state of seeds
+	def init():
+		state_0 = "UNK"
+		state_1 = "vegetation"
+	def animals_may_come_across_vegetation():
+		state_0 = "vegetation"
+		state_1 = "vegetation"
+	def animal_may_consume_or_get_seeds_stuck_in_their_fur():
+		state_0 = "UNK"
+		state_1 = "animal"
+	def animal_travels_some_distance_someplace_else():
+		state_0 = "someplace else"
+		state_1 = "animal"
+	def seeds_are_dropped_or_deposited_off():
+		state_0 = "someplace else"
+		state_1 = "someplace else"
+	def seeds_have_new_place_to_proliferate_and_grow():
+		state_0 = "someplace else"
+		state_1 = "new place"
+# END
+
+def main():
+	# Init
+	# People breathe and expel carbon dioxide.
+	# Engines produce carbon dioxide.
+	# Living things produce waste.
+	# Waste decomposes.
+	# Decomposition produces methane.
+	# Water evaporates.
+	# Water vapor joins the atmosphere.
+	# Carbon dioxide, water vapor and methane are greenhouse gases.
+	# state_0 tracks the location/state of carbon dioxide
+	# state_1 tracks the location/state of greenhouse gases
+	# state_2 tracks the location/state of methane
+	# state_3 tracks the location/state of water
+	# state_4 tracks the location/state of water vapor
+	def init():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = None
+		state_3 = "UNK"
+		state_4 = None
+	def people_breathe_and_expel_carbon_dioxide():
+		state_0 = "UNK"
+		state_1 = None
+		state_2 = None
+		state_3 = "UNK"
+		state_4 = None
+	def engines_produce_carbon_dioxide():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = None
+		state_3 = "UNK"
+		state_4 = None
+	def living_things_produce_waste():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = None
+		state_3 = "UNK"
+		state_4 = None
+	def waste_decomposes():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = None
+		state_3 = "UNK"
+		state_4 = None
+	def decomposition_produces_methane():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = "atmosphere"
+		state_3 = "UNK"
+		state_4 = None
+	def water_evaporates():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = "atmosphere"
+		state_3 = None
+		state_4 = "atmosphere"
+	def water_vapor_joins_atmosphere():
+		state_0 = "atmosphere"
+		state_1 = None
+		state_2 = "atmosphere"
+		state_3 = None
+		state_4 = "atmosphere"
+	def carbon_dioxide_water_vapor_and_methane_are_greenhouse_gases():
+		state_0 = None
+		state_1 = "atmosphere"
+		state_2 = None
+		state_3 = None
+		state_4 = None
+# END
+
+

@@ -1,0 +1,578 @@
+class WalkIntoStore:
+
+    title = "walk into store"
+    steps = 9
+
+    def step0(self):
+        return "park the car"
+
+    def step1(self):
+        return "take the key out of the ignition"
+
+    def step2(self):
+        return "shut car door and press lock button"
+
+    def step3(self):
+        return "get out of the car"
+
+    def step4(self):
+        return "stop for red lights and stop signs"
+
+    def step5(self):
+        return "push gas pedal to move vehicle"
+
+    def step6(self):
+        return "pull into store driveway"
+
+    def step7(self):
+        return "get in car and go to store"
+
+    def step8(self):
+        return "walk into store"
+
+    def get_relations(self):
+        return [
+            "step5 -> step4",
+            "step4 -> step6",
+            "step6 -> step0",
+            "step1 -> step3",
+            "step0 -> step1",
+            "step3 -> step2",
+            "step2 -> step8",
+            "step7 -> step5",
+        ]
+# END
+
+class PickOutItems:
+
+    title = "pick out items"
+    steps = 7
+
+    def step0(self):
+        return "locate sign indicating which isle has items"
+
+    def step1(self):
+        return "find needed item"
+
+    def step2(self):
+        return "visually locate needed item"
+
+    def step3(self):
+        return "walk down necessary isle"
+
+    def step4(self):
+        return "walk toward necessary isle"
+
+    def step5(self):
+        return "drive to the store after work"
+
+    def step6(self):
+        return "pick out items"
+
+    def get_relations(self):
+        return [
+            "step0 -> step4",
+            "step4 -> step3",
+            "step3 -> step2",
+            "step2 -> step1",
+            "step1 -> step6",
+            "step5 -> step0",
+        ]
+# END
+
+class GoOutsideInAnOpenArea:
+
+    title = "Go outside in an open area"
+    steps = 7
+
+    def step0(self):
+        return "walk to house door"
+
+    def step1(self):
+        return "push door open"
+
+    def step2(self):
+        return "reach towards door handle"
+
+    def step3(self):
+        return "walk body through door"
+
+    def step4(self):
+        return "grip handle with hand"
+
+    def step5(self):
+        return "get dressed in warm clothes"
+
+    def step6(self):
+        return "Go outside in an open area"
+
+    def get_relations(self):
+        return [
+            "step0 -> step2",
+            "step2 -> step4",
+            "step4 -> step1",
+            "step1 -> step3",
+            "step3 -> step6",
+            "step5 -> step0",
+        ]
+# END
+
+class PutKeyFobAwayInPocket:
+
+    title = "put key fob away in pocket"
+    steps = 7
+
+    def step0(self):
+        return "move key towards pocket"
+
+    def step1(self):
+        return "move key inside pocket"
+
+    def step2(self):
+        return "release hand from key"
+
+    def step3(self):
+        return "find the pocket"
+
+    def step4(self):
+        return "open the pocket"
+
+    def step5(self):
+        return "release unlock button"
+
+    def step6(self):
+        return "put key fob away in pocket"
+
+    def get_relations(self):
+        return [
+            "step3 -> step4",
+            "step3 -> step0",
+            "step0 -> step1",
+            "step4 -> step1",
+            "step1 -> step2",
+            "step2 -> step6",
+            "step5 -> step3",
+        ]
+# END
+
+class RideAnElephant:
+
+    title = "ride an elephant"
+    steps = 7
+
+    def step0(self):
+        return "Go online via a computer or phone"
+
+    def step1(self):
+        return "Get help onto the elephant"
+
+    def step2(self):
+        return "Show up to reservation"
+
+    def step3(self):
+        return "Make a reservation online"
+
+    def step4(self):
+        return "Search for locations where elephants can be ridden"
+
+    def step5(self):
+        return "decided to ride an elephant"
+
+    def step6(self):
+        return "ride an elephant"
+
+    def get_relations(self):
+        return [
+            "step0 -> step4",
+            "step4 -> step3",
+            "step3 -> step2",
+            "step2 -> step1",
+            "step1 -> step6",
+            "step5 -> step0",
+        ]
+# END
+
+class UnlockBottomLock:
+
+    title = "unlock bottom lock"
+    steps = 7
+
+    def step0(self):
+        return "turn key counter clockwise"
+
+    def step1(self):
+        return "select key for bottom lock"
+
+    def step2(self):
+        return "look at keyring"
+
+    def step3(self):
+        return "pull key out of top lock"
+
+    def step4(self):
+        return "stick key in bottom lock"
+
+    def step5(self):
+        return "unlock top lock"
+
+    def step6(self):
+        return "unlock bottom lock"
+
+    def get_relations(self):
+        return [
+            "step3 -> step2",
+            "step2 -> step1",
+            "step0 -> step6",
+            "step1 -> step4",
+            "step4 -> step0",
+            "step5 -> step3",
+        ]
+# END
+
+class SitInTheFrontSeatOfTheCar:
+
+    title = "sit in the front seat of the car"
+    steps = 7
+
+    def step0(self):
+        return "unlock the car door"
+
+    def step1(self):
+        return "put clothes on"
+
+    def step2(self):
+        return "open the car door"
+
+    def step3(self):
+        return "walk out of the house"
+
+    def step4(self):
+        return "take a shower"
+
+    def step5(self):
+        return "decided to sit in the front seat of the car"
+
+    def step6(self):
+        return "sit in the front seat of the car"
+
+    def get_relations(self):
+        return [
+            "step1 -> step3",
+            "step4 -> step1",
+            "step3 -> step0",
+            "step0 -> step2",
+            "step2 -> step6",
+            "step5 -> step4",
+        ]
+# END
+
+class AssembleTacosAsDesired:
+
+    title = "assemble tacos as desired"
+    steps = 7
+
+    def step0(self):
+        return "Place meat into taco shells"
+
+    def step1(self):
+        return "Chop up vegetables"
+
+    def step2(self):
+        return "Remove taco shells from package"
+
+    def step3(self):
+        return "Place vegetables on cheese"
+
+    def step4(self):
+        return "Place cheese on meat"
+
+    def step5(self):
+        return "cook desired meat(s)"
+
+    def step6(self):
+        return "assemble tacos as desired"
+
+    def get_relations(self):
+        return [
+            "step2 -> step0",
+            "step1 -> step2",
+            "step4 -> step3",
+            "step3 -> step6",
+            "step0 -> step4",
+            "step5 -> step1",
+        ]
+# END
+
+class PutAwayPlasterKit:
+
+    title = "put away plaster kit"
+    steps = 7
+
+    def step0(self):
+        return "gather up trash"
+
+    def step1(self):
+        return "close the plaster kit"
+
+    def step2(self):
+        return "make sure job is done"
+
+    def step3(self):
+        return "look at wall"
+
+    def step4(self):
+        return "find excess materials"
+
+    def step5(self):
+        return "clean up the mess on the floor"
+
+    def step6(self):
+        return "put away plaster kit"
+
+    def get_relations(self):
+        return [
+            "step4 -> step6",
+            "step3 -> step2",
+            "step2 -> step6",
+            "step1 -> step6",
+            "step0 -> step6",
+            "step5 -> step4",
+            "step5 -> step3",
+            "step5 -> step1",
+            "step5 -> step0",
+        ]
+# END
+
+class GetInformationOnTheClubFromFriend:
+
+    title = "Get information on the club from friend"
+    steps = 7
+
+    def step0(self):
+        return "Call a friend"
+
+    def step1(self):
+        return "Wait for friend to pick up"
+
+    def step2(self):
+        return "Get the name of a club from friend"
+
+    def step3(self):
+        return "Start talking about clubs"
+
+    def step4(self):
+        return "Have some small talk"
+
+    def step5(self):
+        return "decided to Get information on the club from friend"
+
+    def step6(self):
+        return "Get information on the club from friend"
+
+    def get_relations(self):
+        return [
+            "step0 -> step1",
+            "step1 -> step4",
+            "step1 -> step3",
+            "step4 -> step2",
+            "step3 -> step2",
+            "step2 -> step6",
+            "step5 -> step0",
+        ]
+# END
+
+class DoSomethingExciting:
+
+    title = "do something exciting"
+    steps = 7
+
+    def step0(self):
+        return "Think of what want to do"
+
+    def step1(self):
+        return "enter the place"
+
+    def step2(self):
+        return "book the experience online"
+
+    def step3(self):
+        return "go online to book trip"
+
+    def step4(self):
+        return "go to the destination"
+
+    def step5(self):
+        return "decided to do something exciting"
+
+    def step6(self):
+        return "do something exciting"
+
+    def get_relations(self):
+        return [
+            "step0 -> step3",
+            "step3 -> step2",
+            "step2 -> step4",
+            "step4 -> step1",
+            "step1 -> step6",
+            "step5 -> step0",
+        ]
+# END
+
+class PickOutAWorkoutPlan:
+
+    title = "pick out a workout plan"
+    steps = 7
+
+    def step0(self):
+        return "compare the plan to other available plans"
+
+    def step1(self):
+        return "decide if the plan is suitable"
+
+    def step2(self):
+        return "make a list of pros for the plan"
+
+    def step3(self):
+        return "make a list of cons for the plan"
+
+    def step4(self):
+        return "see if the pros outweigh the cons"
+
+    def step5(self):
+        return "find a workout plan"
+
+    def step6(self):
+        return "pick out a workout plan"
+
+    def get_relations(self):
+        return [
+            "step0 -> step1",
+            "step2 -> step4",
+            "step1 -> step6",
+            "step3 -> step4",
+            "step4 -> step1",
+            "step5 -> step0",
+            "step5 -> step2",
+            "step5 -> step3",
+        ]
+# END
+
+class ConnectPhoneToTheWifi:
+
+    title = "connect phone to the wifi"
+    steps = 7
+
+    def step0(self):
+        return "open settings app"
+
+    def step1(self):
+        return "type in password"
+
+    def step2(self):
+        return "find wifi network"
+
+    def step3(self):
+        return "locate settings app"
+
+    def step4(self):
+        return "open connections tab"
+
+    def step5(self):
+        return "unlock the phone screen"
+
+    def step6(self):
+        return "connect phone to the wifi"
+
+    def get_relations(self):
+        return [
+            "step3 -> step0",
+            "step0 -> step4",
+            "step4 -> step2",
+            "step2 -> step1",
+            "step1 -> step6",
+            "step5 -> step3",
+        ]
+# END
+
+class PracticeTurningBodyOverAndLandingOnFeet:
+
+    title = "practice turning body over and landing on feet"
+    steps = 7
+
+    def step0(self):
+        return "place protective mats down"
+
+    def step1(self):
+        return "remove any jewelry"
+
+    def step2(self):
+        return "stretch for exercise"
+
+    def step3(self):
+        return "find cleared area in field"
+
+    def step4(self):
+        return "practice for exercise"
+
+    def step5(self):
+        return "practice putting hands on the ground and shifting weight"
+
+    def step6(self):
+        return "practice turning body over and landing on feet"
+
+    def get_relations(self):
+        return [
+            "step3 -> step1",
+            "step3 -> step0",
+            "step0 -> step2",
+            "step1 -> step2",
+            "step2 -> step4",
+            "step4 -> step6",
+            "step5 -> step3",
+        ]
+# END
+
+class LearnANewSongToSing:
+
+    title = "learn a new song to sing"
+    steps = 8
+
+    def step0(self):
+        return "pick out a catchy song"
+
+    def step1(self):
+        return "listen to the song several times"
+
+    def step2(self):
+        return "practice singing the song"
+
+    def step3(self):
+        return "look up the chords"
+
+    def step4(self):
+        return "listen to several songs"
+
+    def step5(self):
+        return "look up the lyrics"
+
+    def step6(self):
+        return "decided to learn a new song to sing"
+
+    def step7(self):
+        return "learn a new song to sing"
+
+    def get_relations(self):
+        return [
+            "step4 -> step0",
+            "step0 -> step5",
+            "step0 -> step3",
+            "step0 -> step1",
+            "step5 -> step2",
+            "step3 -> step2",
+            "step1 -> step2",
+            "step2 -> step7",
+            "step6 -> step4",
+        ]
+# END
+
+
