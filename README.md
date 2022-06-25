@@ -1,12 +1,11 @@
 # Language Models of Code are Few-Shot Commonsense Learners
 
+## Table of contents
 
-Table of Contents
-==================
-- [Outputs](#introduction)
-- [Running jobs](#motivation)
-- [Dynamic prompt creation](#background)
-
+- [Running CoCoGen](#running-cocogen)
+- [Sample Outputs](#sample-outputs)
+- [End-to-end workflow](#end-to-end-workflow)
+- [Creating dynamic prompts (KST)](#creating-dynamic-prompts-kst)
 
 
 
@@ -85,7 +84,7 @@ python -u src/api/query_openai_over_tasks.py --task_file_path data/propara/test.
 ```sh
 python src/eval/propara/eval_results.py --raw_output_file data/propara//test_outputs.jsonl --output_file  data/propara/test_output_predictions.jsonl
 ```
-```
+
 
 ---
 
@@ -298,5 +297,7 @@ python -u src/codexapi/query_openai_over_tasks.py --task_file_path data/explagra
 ```
 
 Note that no prompt path is specified, as the task file `data/explagraphs/dev_kst_task.jsonl` contains a prompt for each example.
+
+
 
 
