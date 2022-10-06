@@ -1,5 +1,17 @@
 # Language Models of Code are Few-Shot Commonsense Learners
 
+The official repository for "Language Models of Code are Few-Shot Commonsense Learners" (Madaan et al., EMNLP'2022).
+
+This paper addresses the general task of *structured* commonsense reasoning: 
+generate a *graph* given a natural language input.
+We address these family of tasks by framing the problem as a **code generation** task, and prompting large language models of **code** (e.g., Codex).
+
+| <img alt="image" width="70%" src="https://user-images.githubusercontent.com/15002544/194352035-f0ae52f9-8fe3-47f7-af2e-2c1dc2461ad2.png"> |
+|-|
+
+| <img width="70%" alt="image" src="https://user-images.githubusercontent.com/15002544/194354502-460dcda7-b497-44b2-bdca-75240cb0664c.png"> |
+|-|
+
 ## Table of contents
 
 - [Running CoCoGen](#running-cocogen)
@@ -8,10 +20,9 @@
 - [Creating dynamic prompts (KST)](#creating-dynamic-prompts-kst)
 
 
-
 ## Running CoCoGen
 
-An OpenAI API key is required to run the jobs.
+An OpenAI API key is required to run the jobs. To get an API key, register at [https://openai.com/blog/openai-codex/](https://openai.com/blog/openai-codex/).
 
 The key should be exported in the environment variable `OPENAI_API_KEY`.
 
