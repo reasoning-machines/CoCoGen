@@ -26,7 +26,7 @@ An OpenAI API key is required to run the jobs. To get an API key, register at [h
 
 The key should be exported in the environment variable `OPENAI_API_KEY`.
 
-Please note that as of June 2022, codex is free to use for non-commercial purposes with a key.
+Please note that as of Oct 2022, codex is free to use for non-commercial purposes with a key.
 
 
 
