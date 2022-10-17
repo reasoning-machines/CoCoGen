@@ -1,6 +1,6 @@
 # Language Models of Code are Few-Shot Commonsense Learners
 
-The official repository for "Language Models of Code are Few-Shot Commonsense Learners" (Madaan et al., EMNLP'2022).
+The official repository for ["Language Models of Code are Few-Shot Commonsense Learners"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022).
 
 This paper addresses the general task of *structured* commonsense reasoning: 
 generate a *graph* given a natural language input.
