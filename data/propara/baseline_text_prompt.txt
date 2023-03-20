@@ -1,0 +1,157 @@
+Document
+step 0: Init
+step 1: Energy is stored in a battery.
+step 2: The energy is released from the battery as electrical current.
+step 3: The electrical current goes to a motor.
+step 4: The motor makes the needle of the sewing machine go up and down.
+step 5: The needle is pressed through the piece of clothing at a constant rate.
+step 6: Thread is attached and used to stitch the clothing.
+
+List of participants:
+participant 0: electrical current
+participant 1: energy
+
+Question 0: after step 0 (init) is executed where are the participants?
+Answers:
+electrical current does not exist
+energy is located at battery
+
+Question 1: after step 1 (energy is stored in a battery) is executed where are the participants?
+Answers:
+electrical current does not exist
+energy is located at battery
+
+Question 2: after step 2 (the energy is released from the battery as electrical current) is executed where are the participants?
+Answers:
+electrical current is located at motor
+energy does not exist
+
+Question 3: after step 3 (the electrical current goes to a motor) is executed where are the participants?
+Answers:
+electrical current is located at motor
+energy does not exist
+
+Question 4: after step 4 (the motor makes the needle of the sewing machine go up and down) is executed where are the participants?
+Answers:
+electrical current is located at motor
+energy does not exist
+
+Question 5: after step 5 (the needle is pressed through the piece of clothing at a constant rate) is executed where are the participants?
+Answers:
+electrical current is located at motor
+energy does not exist
+
+Question 6: after step 6 (thread is attached and used to stitch the clothing) is executed where are the participants?
+Answers:
+electrical current is located at motor
+energy does not exist
+# END
+
+Document
+step 0: Init
+step 1: Warm air rises.
+step 2: Then it expandes and cools.
+step 3: Some of the vapor condenses onto tiny pieces of dust that are floating in the air.
+step 4: Forms a tiny droplet around each dust particle.
+step 5: Billions of these droplets come together they become a visible cloud.
+
+List of participants:
+participant 0: cloud
+participant 1: droplet
+participant 2: tiny pieces of dust ; dust particle
+participant 3: vapor
+participant 4: warm air
+
+Question 0: after step 0 (init) is executed where are the participants?
+Answers:
+cloud does not exist
+droplet does not exist
+tiny pieces of dust ; dust particle is located at air
+vapor does not exist
+warm air is located at unknown place
+
+Question 1: after step 1 (warm air rises) is executed where are the participants?
+Answers:
+cloud does not exist
+droplet does not exist
+tiny pieces of dust ; dust particle is located at air
+vapor does not exist
+warm air is located at unknown place
+
+Question 2: after step 2 (then it expandes and cools) is executed where are the participants?
+Answers:
+cloud does not exist
+droplet does not exist
+tiny pieces of dust ; dust particle is located at air
+vapor is located at air
+warm air does not exist
+
+Question 3: after step 3 (some of the vapor condenses onto tiny pieces of dust that are floating in the air) is executed where are the participants?
+Answers:
+cloud does not exist
+droplet does not exist
+tiny pieces of dust ; dust particle is located at air
+vapor is located at air
+warm air does not exist
+
+Question 4: after step 4 (forms a tiny droplet around each dust particle) is executed where are the participants?
+Answers:
+cloud does not exist
+droplet is located at air
+tiny pieces of dust ; dust particle is located at air
+vapor does not exist
+warm air does not exist
+
+Question 5: after step 5 (billions of these droplets come together they become a visible cloud) is executed where are the participants?
+Answers:
+cloud is located at air
+droplet does not exist
+tiny pieces of dust ; dust particle is located at air
+vapor does not exist
+warm air does not exist
+# END
+
+Document
+step 0: Init
+step 1: Animals may come across vegetation.
+step 2: The animal may consume or get seeds stuck in their fur.
+step 3: The animal travels some distance someplace else.
+step 4: The seeds are dropped or deposited off.
+step 5: The seeds have a new place to proliferate and grow.
+
+List of participants:
+participant 0: animals
+participant 1: seeds
+
+Question 0: after step 0 (init) is executed where are the participants?
+Answers:
+animals is located at unknown place
+seeds is located at vegetation
+
+Question 1: after step 1 (animals may come across vegetation) is executed where are the participants?
+Answers:
+animals is located at vegetation
+seeds is located at vegetation
+
+Question 2: after step 2 (the animal may consume or get seeds stuck in their fur) is executed where are the participants?
+Answers:
+animals is located at unknown place
+seeds is located at animal
+
+Question 3: after step 3 (the animal travels some distance someplace else) is executed where are the participants?
+Answers:
+animals is located at someplace else
+seeds is located at animal
+
+Question 4: after step 4 (the seeds are dropped or deposited off) is executed where are the participants?
+Answers:
+animals is located at someplace else
+seeds is located at someplace else
+
+Question 5: after step 5 (the seeds have a new place to proliferate and grow) is executed where are the participants?
+Answers:
+animals is located at someplace else
+seeds is located at new place
+# END
+
+
